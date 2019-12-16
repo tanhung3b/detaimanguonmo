@@ -1,0 +1,163 @@
+/* Clearfix */
+.clearfix:after {
+	clear: both;
+	content: ".";
+	display: block;
+	height: 0;
+	visibility: hidden;
+}
+* html > body .clearfix {
+	display: block;
+	width: 100%;
+}
+* html .clearfix {
+	height: 1%;
+}
+/* CSS Document */
+* {
+	margin:0;
+	padding:0;
+}
+html {
+	height: 100%;
+	width: 100%;
+}
+
+body {
+	height: 100%;
+	width: 100%;
+	background:#B2B6BF;
+}
+
+#wrapper
+{
+	width:100%;
+	height:100%;
+	background:url(../images/bg_center_highlight.png) center top fixed;
+}
+
+.tgp_container
+{
+	margin:0px auto;
+	width:950px;
+	height:100%;
+	text-align:left;
+	padding:0px;
+	position:relative;
+}
+
+.tgp_container .logo
+{
+	position:absolute;
+	width:226px;
+	height:18px;
+	background:url(../images/tgp_logo.png) no-repeat;
+	top:30px;
+	left:110px;
+}
+
+.tgp_container .div_1
+{
+	position:absolute;
+	top:150px;
+	left:40px;
+	width:400px;
+	height:400px;
+	background:url(../images/lock2.png) no-repeat;
+}
+
+.tgp_container .div_2
+{
+	position:absolute;
+	width:340px;
+	left:510px;
+	top:275px;
+	background:transparent;
+	text-align:right;
+}
+
+.tgp_container .div_2 .title
+{
+	text-align:right;
+	width:230px;
+	height:50px;
+	float:left;
+}
+
+.tgp_container .div_2 .title span
+{
+	font-family:"Trebuchet MS";
+	font-size:17px;
+	font-weight:bold;
+}
+
+.tgp_container .div_2 .title div
+{
+	font-family:Verdana;
+	font-size:11px;
+	font-weight:normal;
+	color:#40454F;
+}
+
+.tgp_container .div_2 .icon
+{
+	margin-top: 5px;
+	margin-left:50px;
+	width:19px;
+	height:32px;
+	background:url(../images/right_arrow.png) no-repeat;
+	float:left;
+	cursor:pointer;
+}
+.tgp_container .div_3
+{
+	position:absolute;
+	width:340px;
+	height:140px;
+	right:130px;
+	top:320px;
+	background:transparent;
+	text-align:right;
+	font-family:Verdana;
+	font-size:11px;
+	font-weight:normal;
+	color:#40454F;
+	display:none;
+}
+.tgp_container .div_3 .wrapper .form_login
+{
+	width:330px;
+	height:250px;
+	font-family:Verdana;
+	font-size:11px;
+	font-weight:normal;
+	color:#40454F;
+}
+
+.tgp_container .div_3 .wrapper .inputbox
+{
+	border:none;
+	background:url(../images/textbox.png) no-repeat;
+	width:207px;
+	height:21px;
+	font-family:Verdana;
+	font-weight:normal;
+	line-height:21px;
+	font-size:11px;
+	padding:3px;
+	margin:2px;
+}
+
+.tgp_container .div_3 .wrapper .button
+{
+	border:none;
+	width:85px;
+	height:31px;
+	background:url(../images/button.png) no-repeat;
+	font-family:Verdana;
+	font-size:11px;
+	vertical-align:top;
+	padding-bottom:8px;
+	margin-top:3px;
+	text-shadow:1px 1px 0px #DCDCDC;
+}

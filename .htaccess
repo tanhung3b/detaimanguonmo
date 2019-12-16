@@ -1,0 +1,47 @@
+FileETag none
+
+RewriteEngine On
+
+RewriteRule ^home/							?act=home
+
+
+
+RewriteRule ^san-pham/([0-9]*)/([a-z-0-9]*)/([0-9]*)/				?act=san_pham&id=$1&idp=$2&page=$3
+RewriteRule ^san-pham/([0-9]*)/([0-9]*)/					?act=san_pham&id=$1&idp=$2
+RewriteRule ^san-pham/([0-9]*)/					?act=san_pham&id=$1
+RewriteRule ^san-pham/						?act=san_pham
+
+
+
+RewriteRule ^tin-tuc/([a-z-0-9]*)/([a-z-0-9]*)/([0-9]*)/				?act=tin_tuc&id=$1&idp=$2&page=$3
+RewriteRule ^tin-tuc/([a-z-0-9]*)/([a-z-0-9]*)/							?act=tin_tuc&id=$1&idp=$2
+RewriteRule ^tin-tuc/([a-z-0-9]*)/										?act=tin_tuc&id=$1
+RewriteRule ^tin-tuc/													?act=tin_tuc
+
+
+
+RewriteRule ^thu-vien-hinh-anh/([a-z-0-9]*)/([a-z-0-9]*)/([0-9]*)/				?act=thu_vien_hinh_anh&id=$1&idp=$2&page=$3
+RewriteRule ^thu-vien-hinh-anh/([a-z-0-9]*)/([a-z-0-9]*)/						?act=thu_vien_hinh_anh&id=$1&idp=$2
+RewriteRule ^thu-vien-hinh-anh/([a-z-0-9]*)/									?act=thu_vien_hinh_anh&id=$1
+RewriteRule ^thu-vien-hinh-anh/													?act=thu_vien_hinh_anh
+
+
+
+RewriteRule ^khach-hang/([a-z-0-9]*)/([a-z-0-9]*)/([0-9]*)/					?act=khach_hang&id=$1&idp=$2&page=$3
+RewriteRule ^khach-hang/([a-z-0-9]*)/([a-z-0-9]*)/							?act=khach_hang&id=$1&idp=$2
+RewriteRule ^khach-hang/([a-z-0-9]*)/										?act=khach_hang&id=$1
+RewriteRule ^khach-hang/													?act=khach_hang
+
+
+
+RewriteRule ^view/([a-z-0-9]*)/([0-9]*)/				?act=view&mod=$1&idp=$2
+RewriteRule ^view/([a-z-0-9]*)/							?act=view&mod=$1
+
+
+RewriteRule ^du-an-khach-hang/([0-9]*)/([a-z-0-9]*)/([0-9]*)/				?act=duan_khachhang&id=$1&idp=$2&page=$3
+RewriteRule ^du-an-khach-hang/([0-9]*)/([a-z-0-9]*)/				?act=duan_khachhang&id=$1&idp=$2
+RewriteRule ^du-an-khach-hang/([0-9]*)/						?act=duan_khachhang&id=$1
+RewriteRule ^du-an-khach-hang/						?act=duan_khachhang
+
+
+RewriteRule ^tim-kiem/						?act=tim_kiem

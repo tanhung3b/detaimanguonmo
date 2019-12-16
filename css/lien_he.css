@@ -1,0 +1,65 @@
+/* CSS Document */
+
+.input_lienhe{
+float:left;
+display:block;
+width:200px;
+}
+.input_lienhe label{
+width:110px;
+float:left;
+padding-top:5px;
+}
+.input_lienhe input{
+margin-top:5px;
+
+width:260px;
+color:#fff;
+border:0px;
+padding-top:3px;
+padding-bottom:3px;
+padding-left:5px;
+padding-right:5px;
+border:solid 1px #5f5c5c;
+background:url(/images/h1.png);
+
+}
+.input_lienhe textarea{
+margin-top:5px;
+
+width:260px;
+border:0px;
+border:solid 1px #5f5c5c;
+background:url(/images/h1.png);
+padding-top:7px;
+padding-bottom:7px;
+padding-left:5px;
+padding-right:5px;
+color:#fff
+}
+
+.input_button {
+float:left;
+display:block;
+width:385px;
+text-align:right;
+padding-top:10px;
+padding-bottom:5px;
+}
+.bt_gui_lh{
+cursor:pointer;
+border:0px;
+background:url(/images/gui.jpg);
+width:74px;
+height:29px;
+}
+
+
+.bg_lienhe{ background:url(/images/bg_lienhe.png) no-repeat top right}
+
+.button_sen{ background:url(/images/bt.png) no-repeat 0px 0px; border:none; cursor:pointer; width:97px; height:29px;  }
+.button_sen:hover{ background:url(/images/bt.png) no-repeat 0px -37px; border:none; cursor:pointer; width:97px; height:29px;  }
+	
+	
+.button_2{ background:url(/images/bt.png) no-repeat 0px -80px; border:none; cursor:pointer; width:97px; height:29px;  }
+.button_2:hover{ background:url(/images/bt.png) no-repeat 0px -116px; border:none; cursor:pointer; width:97px; height:29px;  }

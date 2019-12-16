@@ -1,0 +1,96 @@
+/* CSS Document */
+
+
+
+#nav{
+margin:0px; padding:0px;
+float:left;
+			list-style:none;
+			color:#000;
+			z-index:9999;
+			margin-left:0px;
+}
+
+#nav li {
+	float: left;
+	position: relative;
+	z-index:200;
+	height:20px;
+	}
+
+
+#nav li ul {
+position:absolute;
+background:url(/images/bg_sub.png) ;
+width:220px;
+margin:0px;
+margin-top:7px;
+padding:0px;
+
+left:20px;
+  }
+#nav li:hover ul {
+
+  display: block;
+  z-index:9999;
+
+  }
+#nav li ul li {
+  float: none;
+  height:24px;
+  line-height:26px;
+  display:block;
+  clear:both;
+margin:0px;
+ padding:0px;
+border-top: solid 1px #D6D6D6;
+  }
+.m4{ font-weight:bold; color:#000; padding-left:10px;}
+.m4 a{ font-weight:bold; color:#fff;}
+.m4 a:hover{  color:#f15e27;}
+
+
+
+
+#nav li ul li.line{
+padding-top:2px;
+padding-bottom:2px;
+height:3px;
+}
+#nav li ul li.line div {
+padding-top:2px;
+padding-bottom:2px;
+width:210px;
+ background:url(/images/line_menu1.jpg) no-repeat 0px 0px;
+  }
+
+#nav  ul.sub 
+{left:-20px; top:35px; width:170px!important; height:auto; z-index:300;
+position:absolute;
+ background:url(/images/nen_menu1.png) no-repeat center top;
+
+padding:0px;
+}
+
+
+
+.menu_dichvu{ position: relative; z-index:99999999}
+
+.menu_dichvu:hover .show_menu2{ display:block }
+
+.show_menu2{
+width:397px;
+position: absolute; left:180px; top:0px;
+background:url(/images/bg_sub.png) ;
+z-index:99999999;
+display:none;
+
+}
+.show_menu2 .m5{
+border-top:solid 1px #D6D6D6;
+padding-left:5px;
+
+}
+
+ .m5 a{ color:#fff; font-weight:bold}
+ .m5 a:hover{ color:#fcb414; }

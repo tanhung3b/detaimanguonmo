@@ -1,0 +1,1 @@
+<div class="fb-comments" data-num-posts="3" data-width="554" data-colorscheme="dark" data-href="<?=$link_fb?>" ></div>

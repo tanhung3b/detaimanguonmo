@@ -1,0 +1,19 @@
+.item_khach_hang{ width:766px; padding-bottom:35px;}
+.hinh_khach_hang{ float:left; width:118px; height:93px; }
+.hinh_khach_hang img{
+	-webkit-border-radius:8px;
+-moz-border-radius:8px;
+border-radius:8px; 
+	 }
+
+.khung_nd_khachhang{ float:right; width:615px;}
+
+.phan_nd_kh{ background:#141414;  -webkit-border-radius:6px;
+-moz-border-radius:6px;
+border-radius:6px; padding:16px; position:relative;}
+
+.ten_khachhang{ color:#f15e27; font-family:Arial, Helvetica, sans-serif; font-size:14px; padding-bottom:8px; }
+
+.phan_nhon{ position:absolute; bottom:-17px; left:70px; background:url(/images/ln.png) no-repeat; width:32px; height:18px; }
+
+.khung_commen_fb{ padding-top:25px;display:none;}

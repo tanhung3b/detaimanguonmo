@@ -1,0 +1,30 @@
+.itiem_hinh{ width:211px; height:151px; float:left; background:url(/images/bg_album.png) no-repeat top left; position:relative;  overflow:hidden}
+.hinh_gal{ padding-top:5px; padding-left:6px;}
+.ten_gal{ width:179px;padding-top:8px; padding-bottom:5px; text-align:center; padding-left:2px; padding-right:2px;  font-weight:bold}
+
+.itiem_hinh:hover .ten_gal{ display:block; }
+
+
+.itiem_hinhanh{ float:left; width:155px; position:relative; background:url(/images/hinh.png) no-repeat left top; padding-right:38px;}
+.boc_hinh{ padding:6px; height:129px}
+.nut_zoon{ position:absolute; left:156px; top:0px; cursor:pointer; width:24px; height:24px;} 
+
+
+
+.hinh_hd_home{ width:200px; float:left; padding-right:10px;}
+
+.khung_chua_thuvien{ width:225px; height:274px; float:left; padding-right:20px; }
+.hinh_tin_thuvien img{ -webkit-border-radius:6px;
+-moz-border-radius:6px;
+border-radius:6px;}
+.tieude_thuvien{ font-family:Arial, Helvetica, sans-serif; font-size:14px; font-weight:bold; padding-top:15px; height:16px; line-height:16px; overflow:hidden}
+.tieude_thuvien a{ color:#f15e27}
+.tieude_thuvien a:hover{ color:#fff}
+
+.chu_thich_thuvien{ padding-top:3px; height:50px; line-height:16px; overflow:hidden}
+
+.xem_tiep_thuvien{ font-weight:bold; text-align:center; width:72px; margin-top:16px; height:25px; background:url(/images/ct_xt2.png) no-repeat; line-height:25px; margin-left:140px;}
+.xem_tiep_thuvien a{  color:#fff ; }
+.xem_tiep_thuvien a:hover{color:#900; }
+
+.phan_cach{ height:20px; border-bottom:solid 1px #000; margin-bottom:20px; clear:both}

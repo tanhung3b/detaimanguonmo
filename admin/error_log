@@ -1,0 +1,4 @@
+[24-Aug-2012 20:58:23] PHP Warning:  mysql_fetch_array(): supplied argument is not a valid MySQL result resource in /home/studio/public_html/admin/prog/templates/gallery.php on line 90
+[07-Nov-2012 13:28:44] PHP Warning:  mysql_fetch_array(): supplied argument is not a valid MySQL result resource in /home/studio/public_html/admin/prog/templates/gallery.php on line 90
+[08-Nov-2012 16:46:31] PHP Warning:  mysql_fetch_array(): supplied argument is not a valid MySQL result resource in /home/studio/public_html/admin/prog/templates/gallery.php on line 90
+[08-Nov-2012 16:50:08] PHP Warning:  mysql_fetch_array(): supplied argument is not a valid MySQL result resource in /home/studio/public_html/admin/prog/templates/gallery.php on line 90

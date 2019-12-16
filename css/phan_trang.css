@@ -1,0 +1,40 @@
+
+/*phan trang */
+.navigation {
+	font-size:11px;
+	font-family:Tahoma;
+	clear: both;
+height:20px;
+	text-align: right;
+	padding-right:10px;
+	cursor:default;
+	font-weight:bold;
+	color:#da251c;
+}
+.navigation .current_page_item, .navigation .page_item a {
+	outline:none;
+	margin:2px;
+
+	text-decoration:none;
+
+}
+
+.navigation .page_item a {
+	color:#da251c ;
+
+padding-left:3px;
+padding-right:3px;
+}
+
+.navigation .current_page_item, .navigation .page_item a:hover 
+{padding-left:3px;
+padding-right:3px;
+	color:#da251c;
+
+border-bottom:1px solid #da251c;
+}
+.duan_san{
+padding-left:2px;
+padding-right:2px;
+}
+/*end phan trang*/

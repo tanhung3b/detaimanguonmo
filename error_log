@@ -1,0 +1,56 @@
+[12-Aug-2010 11:08:12] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: YES) in /home/w2tgp/public_html/_CORE/mysql.class.php on line 19
+[12-Aug-2010 11:12:32] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: YES) in /home/w2tgp/public_html/_CORE/mysql.class.php on line 19
+[24-Aug-2010 11:49:09] PHP Fatal error:  Call to undefined function  get_sql() in /home/w2tgp/public_html/z_modules/tin_tuc.php on line 41
+[30-Jul-2012 08:41:03] PHP Warning:  include(_CORE/index.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /home/studio/public_html/config.php on line 3
+[30-Jul-2012 08:41:03] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Failed opening '_CORE/index.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/studio/public_html/config.php on line 3
+[30-Jul-2012 08:41:03] PHP Fatal error:  Class 'lg_mysql' not found in /home/studio/public_html/index.php on line 5
+[30-Jul-2012 08:41:46] PHP Warning:  include(_CORE/index.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /home/studio/public_html/config.php on line 3
+[30-Jul-2012 08:41:46] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Failed opening '_CORE/index.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/studio/public_html/config.php on line 3
+[30-Jul-2012 08:41:46] PHP Fatal error:  Class 'lg_mysql' not found in /home/studio/public_html/index.php on line 5
+[30-Jul-2012 08:46:05] PHP Warning:  include(_CORE/index.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /home/studio/public_html/config.php on line 3
+[30-Jul-2012 08:46:05] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Failed opening '_CORE/index.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/studio/public_html/config.php on line 3
+[30-Jul-2012 08:46:05] PHP Fatal error:  Class 'lg_mysql' not found in /home/studio/public_html/index.php on line 5
+[30-Jul-2012 08:48:38] PHP Warning:  mysql_num_rows(): supplied argument is not a valid MySQL result resource in /home/studio/public_html/z_includes/dem_online.php on line 12
+[30-Jul-2012 08:48:38] PHP Warning:  mysql_num_rows(): supplied argument is not a valid MySQL result resource in /home/studio/public_html/z_includes/dem_online.php on line 21
+[30-Jul-2012 08:48:38] PHP Warning:  mysql_num_rows(): supplied argument is not a valid MySQL result resource in /home/studio/public_html/_CORE/mysql.class.php on line 79
+[30-Jul-2012 08:48:38] PHP Warning:  mysql_num_rows(): supplied argument is not a valid MySQL result resource in /home/studio/public_html/_CORE/mysql.class.php on line 79
+[30-Jul-2012 08:48:38] PHP Warning:  mysql_num_rows(): supplied argument is not a valid MySQL result resource in /home/studio/public_html/_CORE/mysql.class.php on line 79
+[30-Jul-2012 08:48:38] PHP Warning:  mysql_num_rows(): supplied argument is not a valid MySQL result resource in /home/studio/public_html/_CORE/mysql.class.php on line 79
+[30-Jul-2012 08:48:45] PHP Warning:  mysql_num_rows(): supplied argument is not a valid MySQL result resource in /home/studio/public_html/z_includes/dem_online.php on line 12
+[30-Jul-2012 08:48:45] PHP Warning:  mysql_num_rows(): supplied argument is not a valid MySQL result resource in /home/studio/public_html/z_includes/dem_online.php on line 21
+[30-Jul-2012 08:48:45] PHP Warning:  mysql_num_rows(): supplied argument is not a valid MySQL result resource in /home/studio/public_html/_CORE/mysql.class.php on line 79
+[30-Jul-2012 08:48:45] PHP Warning:  mysql_num_rows(): supplied argument is not a valid MySQL result resource in /home/studio/public_html/_CORE/mysql.class.php on line 79
+[30-Jul-2012 08:48:45] PHP Warning:  mysql_num_rows(): supplied argument is not a valid MySQL result resource in /home/studio/public_html/_CORE/mysql.class.php on line 79
+[30-Jul-2012 08:48:45] PHP Warning:  mysql_num_rows(): supplied argument is not a valid MySQL result resource in /home/studio/public_html/_CORE/mysql.class.php on line 79
+[30-Jul-2012 08:48:46] PHP Warning:  mysql_num_rows(): supplied argument is not a valid MySQL result resource in /home/studio/public_html/z_includes/dem_online.php on line 12
+[30-Jul-2012 08:48:46] PHP Warning:  mysql_num_rows(): supplied argument is not a valid MySQL result resource in /home/studio/public_html/z_includes/dem_online.php on line 21
+[30-Jul-2012 08:48:46] PHP Warning:  mysql_num_rows(): supplied argument is not a valid MySQL result resource in /home/studio/public_html/_CORE/mysql.class.php on line 79
+[30-Jul-2012 08:48:46] PHP Warning:  mysql_num_rows(): supplied argument is not a valid MySQL result resource in /home/studio/public_html/_CORE/mysql.class.php on line 79
+[30-Jul-2012 08:48:46] PHP Warning:  mysql_num_rows(): supplied argument is not a valid MySQL result resource in /home/studio/public_html/_CORE/mysql.class.php on line 79
+[30-Jul-2012 08:48:46] PHP Warning:  mysql_num_rows(): supplied argument is not a valid MySQL result resource in /home/studio/public_html/_CORE/mysql.class.php on line 79
+[30-Jul-2012 08:50:09] PHP Warning:  mysql_num_rows(): supplied argument is not a valid MySQL result resource in /home/studio/public_html/z_includes/dem_online.php on line 12
+[30-Jul-2012 08:50:09] PHP Warning:  mysql_num_rows(): supplied argument is not a valid MySQL result resource in /home/studio/public_html/z_includes/dem_online.php on line 21
+[30-Jul-2012 08:50:09] PHP Warning:  mysql_num_rows(): supplied argument is not a valid MySQL result resource in /home/studio/public_html/_CORE/mysql.class.php on line 79
+[30-Jul-2012 08:50:09] PHP Warning:  mysql_num_rows(): supplied argument is not a valid MySQL result resource in /home/studio/public_html/_CORE/mysql.class.php on line 79
+[30-Jul-2012 08:50:09] PHP Warning:  mysql_num_rows(): supplied argument is not a valid MySQL result resource in /home/studio/public_html/_CORE/mysql.class.php on line 79
+[30-Jul-2012 08:50:09] PHP Warning:  mysql_num_rows(): supplied argument is not a valid MySQL result resource in /home/studio/public_html/_CORE/mysql.class.php on line 79
+[30-Jul-2012 09:15:52] PHP Parse error:  syntax error, unexpected $end in /home/studio/public_html/z_modules/home.php on line 60
+[30-Jul-2012 09:16:08] PHP Parse error:  syntax error, unexpected $end in /home/studio/public_html/z_modules/home.php on line 60
+[30-Jul-2012 11:24:22] PHP Parse error:  syntax error, unexpected $end in /home/studio/public_html/z_modules/home.php on line 33
+[05-Aug-2012 08:42:57] PHP Fatal error:  Call to undefined function noidung_vitri_list() in /home/studio/public_html/z_modules/khach_hang.php on line 76
+[05-Aug-2012 09:08:00] PHP Fatal error:  Call to undefined function noidung_vitri_list() in /home/studio/public_html/z_modules/khach_hang.php on line 76
+[06-Aug-2012 09:25:29] PHP Fatal error:  Call to undefined function noidung_vitri_list() in /home/studio/public_html/z_modules/khach_hang.php on line 76
+[06-Aug-2012 09:26:26] PHP Fatal error:  Call to undefined function noidung_vitri_list() in /home/studio/public_html/z_modules/khach_hang.php on line 76
+[06-Aug-2012 10:08:09] PHP Fatal error:  Call to undefined function noidung_vitri_list() in /home/studio/public_html/z_modules/khach_hang.php on line 76
+[06-Aug-2012 10:08:42] PHP Fatal error:  Call to undefined function noidung_vitri_list() in /home/studio/public_html/z_modules/khach_hang.php on line 76
+[06-Aug-2012 10:43:38] PHP Fatal error:  Call to undefined function noidung_vitri_list() in /home/studio/public_html/z_modules/khach_hang.php on line 76
+[06-Aug-2012 14:06:51] PHP Fatal error:  Call to undefined function noidung_vitri_list() in /home/studio/public_html/z_modules/khach_hang.php on line 76
+[06-Aug-2012 14:06:53] PHP Fatal error:  Call to undefined function noidung_vitri_list() in /home/studio/public_html/z_modules/khach_hang.php on line 76
+[06-Aug-2012 14:07:21] PHP Fatal error:  Call to undefined function noidung_vitri_list() in /home/studio/public_html/z_modules/khach_hang.php on line 76
+[06-Aug-2012 14:09:43] PHP Fatal error:  Call to undefined function noidung_vitri_list() in /home/studio/public_html/z_modules/khach_hang.php on line 76
+[07-Aug-2012 11:28:41] PHP Fatal error:  Call to undefined function noidung_vitri_list() in /home/studio/public_html/z_modules/khach_hang.php on line 76
+[07-Aug-2012 11:29:06] PHP Fatal error:  Call to undefined function noidung_vitri_list() in /home/studio/public_html/z_modules/khach_hang.php on line 76
+[07-Aug-2012 11:29:41] PHP Fatal error:  Call to undefined function noidung_vitri_list() in /home/studio/public_html/z_modules/khach_hang.php on line 76
+[07-Aug-2012 11:29:53] PHP Fatal error:  Call to undefined function noidung_vitri_list() in /home/studio/public_html/z_modules/khach_hang.php on line 76
+[11-Jun-2013 03:35:20] PHP Warning:  Unknown: open(/tmp/sess_6593087965c68419d15064be930a18b5, O_RDWR) failed: Permission denied (13) in Unknown on line 0
+[11-Jun-2013 03:35:20] PHP Warning:  Unknown: Failed to write session data (files). Please verify that the current setting of session.save_path is correct (/tmp) in Unknown on line 0

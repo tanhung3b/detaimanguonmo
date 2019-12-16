@@ -1,0 +1,155 @@
+/* CSS Document */
+@charset "utf-8";
+
+/* float clearing for IE6 */
+* html .clearfix{
+  height: 1%;
+  overflow: visible;
+}
+
+/* float clearing for IE7 */
+*+html .clearfix{
+  min-height: 1%;
+}
+ *{}
+/* float clearing for everyone else */
+.clearfix:after{
+  clear: both;
+  content: ".";
+  display: block;
+  height: 0;
+  visibility: hidden;
+  font-size: 0;
+}
+form
+{
+	margin:0px;
+	padding:0px;
+}
+img 
+{
+margin:0px;
+padding:0px;
+	 border:none;
+}
+a{
+color:#d1d1d1;
+cursor:pointer;
+	text-decoration:none;
+outline:none;
+}
+a:hover{
+color:#f15e27;
+	text-decoration:none;
+outline:none;
+}
+a img
+{
+	border:none;
+}
+
+a img:hover
+{
+	opacity:0.7;
+	-moz-opacity: 0.7; /* Opacity for really old versions of Mozilla Firefox (0.9 or older) */
+	/* For IE 5-7 */
+	filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=70);
+	/* For IE 8 */
+	-MS-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=70)";	
+}
+
+
+body{
+font-size:12px;
+color:#d1d1d1;
+font-family:Tahoma;
+margin:0px;padding:0px;
+background:url(/images/bg.png) ;
+	behavior: url(/js/csshover.htc);
+}
+	
+	input,textarea,select{outline:none; font-family:Tahoma; }
+	
+	div.tiem_kiem{
+		
+		background:url(/images/tim_kiem.png) no-repeat center 0px; 
+		right:0px;
+		top:60px;
+		width:215px;
+		height:29px;
+		padding-top:3px;
+		padding-left:10px;
+		position:absolute;
+		z-index:9999;
+		}
+		div.tiem_kiem .tim_1{ float:left; width:179px; padding-top:0px; padding-left:3px;}
+			div.tiem_kiem .tim_1 .tim{  width:170px; background:transparent; border:0px; padding:3px; height:14px; color:#fff; font-size:11px;}
+		div.tiem_kiem .search_1{ float:left; width:25px;padding-left:3px;}
+			div.tiem_kiem .search_1 .search{  width:25px; background:transparent ; border:0px; height:20px; }
+			
+
+.khung_menu{ background:url(/images/bg_menu.png) repeat-x top center; height:178px;}			
+
+.phan_menu{ width:960px; margin:auto; position:relative;}			
+.item_menu{ font-size:19px; text-transform:uppercase; padding-left:20px; padding-right:20px; height:45px; padding-top:122px;}	
+
+.item_menu a{ color:#fff; display:inline-block; height:45px;}	
+.item_menu a:hover{ color:#f15e27; border-bottom:solid 3px #f15e27}	
+	.activ a{ color:#f15e27; border-bottom:solid 3px #f15e27 }
+
+
+
+.phan_slide{height:696px; background:url(/images/bg2.png) repeat-x bottom; padding-bottom:7px; }	
+
+.khung_body_home{ width:990px; margin:auto; padding-bottom:20px;}	
+
+
+.khung_dich_vu{ height:147px; position:relative;}
+.phan_dv{ position:absolute; bottom:1px; z-index:999; left:2px;}
+.khung_dichvu{ width:319px; height:364px; float:left; padding-right:15px; }
+.hinh_dv{ padding-bottom:6px;}
+.khung_dichvu .tieude_dv{ background:url(/images/bg_dv.png) no-repeat left top ; height:46px;}
+.khung_dichvu .tieude_dv a{ color:#fff; font-size:19px; display:inline-block; padding-top:12px; padding-left:25px; }
+.khung_dichvu .phan_chuthich{ background:url(/images/bg_t_dv.png) no-repeat bottom left; height:147px; text-align:center; width:317px; color:#000}
+.khung_dichvu .xem_chi_tiet{ background:url(/images/bt_xt.png) no-repeat; width:142px;height:34px; line-height:34px; text-align:center; margin:auto;}		
+	.khung_dichvu .xem_chi_tiet a{ color:#fff; font-family:Arial, Helvetica, sans-serif; font-weight:bold}
+	.khung_dichvu .xem_chi_tiet a:hover{ color:#900}	
+
+.tieude_home{ text-transform:uppercase; font-size:20px; color:#f15e27;}	
+.tieude_home a{color:#f15e27;}	
+.tieude_home a:hover{color:#fff;}
+
+.khung_tin{ width:317px;}	
+	.loi_noi_home .cufon { height:23px !important;}
+	
+
+
+.khung_body_home2{ width:960px; margin:auto; padding-top:20px; padding-bottom:20px;}	
+
+.khung_doitac_con{ width:960px; margin:auto; padding-bottom:10px;}
+.slide_doitac ul li{ width:145px; height:70px; list-style:none}
+	
+.copyright{
+
+margin:auto;
+padding-bottom:10px;
+text-align:center;
+color:#fff;
+background:url(/images/bg_l.png) repeat-x top; 
+padding-top:30px;
+}
+		.copyright_hg{
+		width:930px;
+		margin:auto;
+		text-align:left;
+		margin-top:10px;
+		}
+		.hoang_gia{
+		width:400px;
+		float:left;
+		}
+		
+
+
+p#vtip { display: none; position: absolute; padding: 10px; left: 5px; font-size:11px; background-color: white; border: 1px solid #a6c9e2; -moz-border-radius: 5px; -webkit-border-radius: 5px; z-index: 9999 ; color:#0066FF}
+p#vtip #vtipArrow { position: absolute; top: -10px; left: 5px }

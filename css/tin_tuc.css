@@ -1,0 +1,54 @@
+
+
+
+.khung_chua_tin_tuc{ width:454px; float:left;  padding-right:10px; border-right:1px dashed #d9d9d9; border-bottom:1px dashed #d9d9d9; }	
+.item_tin_tuc{padding-bottom:10px;padding-top:10px; }
+.tieude_tin_tuc{ font-weight:bold; padding-bottom:2px; height:15px; line-height:17px; overflow:hidden }
+.tieude_tin_tuc a{ color:#f15e27 ;  font-size:12px; font-family:Arial; }
+.tieude_tin_tuc a:hover{  color:#fff;}
+
+.hinh_tin_1 { float:left; width:162px; height:124px; }
+.hinh_tin_1 img{ width:162px;  -webkit-border-radius:3px;
+-moz-border-radius:3px;
+border-radius:3px; }
+.noi_dung_ct_tin{ width:314px;  float:right; height:122px; overflow:hidden;  }	
+.chu_thich{height:67px; overflow:hidden; line-height:17px;}
+
+.khung_chua_tin_tuc .noi_dung_ct_tin{ width:284px; font-size:11px;}
+.khung_chua_tin_tuc .chu_thich{ height:69px;}
+
+
+.tin_khac{ padding-bottom:4px; background:url(/images/icon_4.png) no-repeat left 3px;}
+
+
+.itiem_menu_tintuc{ padding-top:10px; font-weight:bold; color:#3b3b3b; background:url(/images/icon.png) no-repeat left 11px;}
+.itiem_menu_tintuc a{  color:#3b3b3b; margin-left:15px;}
+.itiem_menu_tintuc a:hover{  color:#c11c22}
+
+.khung_chua_noidung,.khung_moi_dung_view,.khung_nd_noidung{ padding-top:10px;}
+
+.tieude_view_ct{ color:#fdd537 ;line-height: 26px;font-size: 25px; outline: none; border: 0;
+font-family: "Times New Roman",Georgia,Serif;
+}
+.tieude_home_khac{ font-size:18px; text-transform:uppercase; border-bottom:solid 1px #dadbdc ; padding-bottom:5px; color:#F70}
+.date{ font-size:10px; color:#FF6600; font-family:Arial, Helvetica, sans-serif }
+.date span{ color:#f70}
+
+
+
+.xem_tiep{ font-weight:bold; text-align:right;padding-right:10px; padding-top:5px;}
+.xem_tiep a{  color:#5f5c5c ; }
+.xem_tiep a:hover{color:#f15e27; }
+
+
+.xem_tiep2{ text-align:center; width:112px; height:25px; background:url(/images/bt2.png) no-repeat; line-height:25px; margin:auto}
+.xem_tiep2 a{  color:#fff ; }
+.xem_tiep2 a:hover{color:#900; }
+
+.tin_tuc_home{ text-align:center;}
+.td_tt_home { height:16px; overflow:hidden}
+.td_tt_home a{ color:#f15e27; }
+.td_tt_home a:hover{ color:#fff; }
+.ct_tt_home{ height:44px; overflow:hidden; font-size:11px;}
+
+.luot_view{ font-size:10px; color:#8D8D8D; font-family:Arial, Helvetica, sans-serif;}
